@@ -60,6 +60,38 @@
     manualAdvance: false,
   });
 
+  $('#sliderService').nivoSlider({
+    effect: 'random',
+    slices: 15,
+    boxCols: 12,
+    boxRows: 8,
+    animSpeed: 500,
+    pauseTime: 5000,
+    startSlide: 0,
+    directionNav: false,
+    controlNavThumbs: false,
+    pauseOnHover: true,
+    manualAdvance: false,
+  });
+  $('#sliderCivil').nivoSlider({
+    effect: 'random',
+    slices: 15,
+    boxCols: 12,
+    boxRows: 8,
+    animSpeed: 500,
+    pauseTime: 5000,
+    startSlide: 0,
+    directionNav: false,
+    controlNavThumbs: false,
+    pauseOnHover: true,
+    manualAdvance: false,
+  });
+
+  $('#media').carousel({
+      pause: true,
+      interval: false,
+    });
+
   /*----------------------------
    Scrollspy js
   ------------------------------ */
